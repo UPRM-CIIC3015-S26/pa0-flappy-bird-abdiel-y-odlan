@@ -16,7 +16,7 @@ pygame.display.set_caption("Flappy Bird")
 WHITE = (255, 255, 255)
 GREEN = (0, 255, 0)
 BLACK = (0, 0, 0)
-PLAYER = (128, 0, 128)
+PLAYER = (random.randint(1, 200), 0 ,128)
 
 # Font Size -->
 big_font = pygame.font.SysFont(None, 80)
@@ -81,6 +81,7 @@ while running:
                     # of the bird)
                     bird_velocity = 0
                     pipe_x = 400
+                    bird_y = 300
                     score = 0
                     game_over = False
                     game_started = True
@@ -97,7 +98,10 @@ while running:
             # TODO 4: Fixing the scoring
             # When you pass through the pipes the score should be updated to the current score + 1. Implement the
             # logic to accomplish this scoring system.
-            score = 1
+            pygame.mixer.init()
+            sound = pygame.mixer.Sound("wolfy_sanic-collect-ring-15982 (1).wav")
+            sound.play()
+            score += 1
 
         if bird_y > 600 or bird_y < 0:
             game_over = True
