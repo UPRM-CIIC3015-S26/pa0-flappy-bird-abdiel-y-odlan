@@ -19,7 +19,7 @@ The project is designed as an introductory programming assignment (PA0). Most of
 - **Email:**
 
 ### Partner #2
-- **Name: Odlan Domenech**
+- **Name: Odlan Domech**
 - **Student Number:**
 - **Email:**
 
