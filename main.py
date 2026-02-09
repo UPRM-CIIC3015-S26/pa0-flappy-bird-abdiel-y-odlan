@@ -35,18 +35,18 @@ score_y = 10
 # Player Variables -->
 bird_x = 50
 bird_y = 300
-bird_velocity = -7
+bird_velocity = -10
 # TODO 1: Tweaking the physics
 # Looks like the player is falling too quickly not giving a change to flap it's wing, maybe tweak around with the value of this variable
-gravity = 1.1
-jump = -12
+gravity = 0.5
+jump = -8
 # Pipe Variables -->
 pipe_x = 400
 pipe_width = 40
 # TODO 2.1: A Little gap Problem
 # You probably noticed when running the code that it's impossible the player to go through the gaps
 # play around with the pipe_gap variable so that its big enough for the player to pass through
-pipe_gap = 120
+pipe_gap = 130
 pipe_height = random.randint(100, 400)
 # TODO 2.2: The too fast problem
 # The pipes are moving way too fast! Play around with the pipe_speed variable until you find a good
@@ -101,6 +101,7 @@ while running:
             pygame.mixer.init()
             sound = pygame.mixer.Sound("wolfy_sanic-collect-ring-15982 (1).wav")
             sound.play()
+            PLAYER = (random.randint(1, 200), random.randint(50, 250), random.randint(20, 200 ))
             score += 1
 
         if bird_y > 600 or bird_y < 0:
