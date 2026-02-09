@@ -19,9 +19,9 @@ The project is designed as an introductory programming assignment (PA0). Most of
 - **Email:**
 
 ### Partner #2
-- **Name: Odlan Domech**
-- **Student Number:**
-- **Email:**
+- **Name: Odlan Domenech Vazquez**
+- **Student Number:802.25.9406**
+- **Email:odlan.domenech@upr.edu**
 
 ## ⭐ Bonus Features (Optional)
 List and briefly describe any additional features or enhancements implemented beyond the basic requirements.
