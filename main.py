@@ -63,7 +63,7 @@ running = True
 while running:
     # TODO 6: Changing the name!
     # D'oh! This is not yout name isn't follow the detailed instructions on the PDF to complete this task.
-    name = "Homer Simpson"
+    name = "Odlan Domenech"
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
@@ -81,6 +81,7 @@ while running:
                     # of the bird)
                     bird_velocity = 0
                     pipe_x = 400
+                    bird_y = 300
                     score = 0
                     game_over = False
                     game_started = True
@@ -97,7 +98,7 @@ while running:
             # TODO 4: Fixing the scoring
             # When you pass through the pipes the score should be updated to the current score + 1. Implement the
             # logic to accomplish this scoring system.
-            score = 1
+            score += 1
 
         if bird_y > 600 or bird_y < 0:
             game_over = True
