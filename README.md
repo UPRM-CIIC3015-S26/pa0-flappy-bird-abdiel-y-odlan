@@ -19,11 +19,11 @@ The project is designed as an introductory programming assignment (PA0). Most of
 - **Email:**
 
 ### Partner #2
-- **Name:**
+- **Name: Odlan Domenech**
 - **Student Number:**
 - **Email:**
 
 ## ⭐ Bonus Features (Optional)
 List and briefly describe any additional features or enhancements implemented beyond the basic requirements.
-- Bonus Feature 1
+- Bonus Feature 1: Color of PLAYER changes each score.
 - Bonus Feature 2
